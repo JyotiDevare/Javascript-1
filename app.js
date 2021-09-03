@@ -1,15 +1,18 @@
-// Logical operator
-const a =2
-const b=3
-console.log(a!=b)
-// AND
-console.log("false && false" ,false && false)
-console.log("false && true" ,false && true)
-console.log("true && false" ,true && false)
-console.log("true && true" ,true && true)
+// Conditional Statement
+const a=99
 
-//OR
-console.log("false || false" ,false || false)
-console.log("false || true" ,false || true)
-console.log("true || false" ,true || false)
-console.log("true || true" ,true || true)
+if (typeof a=== 'number') {
+if(a===0){
+console.log("Number is zero")
+}
+if(a%2==0)
+console.log("The number even")
+
+else
+console.log("Number is odd")
+
+}
+else
+{
+    console.log("Not a Number")  
+}
