@@ -1,13 +1,16 @@
-//Data types
-//Primitive data type
-let age = 20
-let Name="jyoti"
-let brand 
-let isfalse=false
-console.log(brand)
-
-//Non Primitive data type
-let arr= [1,2,3,4,5]
-arr.push("6")// push, push to last
-arr.unshift(false)//unshift push to start
-console.log(arr)
+// Arithmetic Operator
+let age = 19
+age=20
+age=100
+console.log(age)
+const specific_name = "Jyoti"
+console.log(specific_name)
+age ++
+console.log(age)
+const a=2
+const b=5
+console.log(a+b)
+console.log(a-b)
+console.log(a*b)
+console.log(a/b)
+console.log(a**b)
