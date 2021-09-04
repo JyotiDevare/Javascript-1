@@ -1,13 +1,8 @@
-//Data types
-//Primitive data type
-let age = 20
-let Name="jyoti"
-let brand 
-let isfalse=false
-console.log(brand)
-
-//Non Primitive data type
-let arr= [1,2,3,4,5]
-arr.push("6")// push, push to last
-arr.unshift(false)//unshift push to start
-console.log(arr)
+const element = document.getElementById('selectme')
+console.log (element)
+const Element = document.getElementsByClassName('heading')
+console.log(Element)
+const eLement = document.getElementsByTagName('h2')
+console.log(eLement)
+const elEment = document.querySelector('.heading')
+console.log(elEment)
