@@ -1,8 +1,13 @@
-const element = document.getElementById('selectme')
-console.log (element)
-const Element = document.getElementsByClassName('heading')
-console.log(Element)
-const eLement = document.getElementsByTagName('h2')
-console.log(eLement)
-const elEment = document.querySelector('.heading')
-console.log(elEment)
+const element = document.querySelector('#selectme')
+element.innerHTML = "This is from JS"
+
+element.style.color = "cyan"
+element.style.fontsize = "40px"
+// element.style = "display:none"
+console.log(element.classList)
+
+const body = document.querySelector('body')
+// console.log(body.classList.toggle('dark'))
+const value = element.classList.contains('three')
+
+console.log(value)
