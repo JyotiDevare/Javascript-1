@@ -1,16 +1,10 @@
-// const rock = document.querySelector('#rock')
-// const paper = document.querySelector('#paper')
-// const scissor = document.querySelector('#scissor')
-function logname(Name="enter your name"){
-    console.log(Name)
-}
-
-//logname('Jyoti')
-logname()
+console.log(add(36,46))
 
 function add(a,b){
     return a+b
 }
 
-const result = add(36,46)
-console.log(result)
+const sum=(c,d)=>{ // function can run by using arrow(=>)
+    return c+d
+}
+console.log(sum(36,46))
