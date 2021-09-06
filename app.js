@@ -1,13 +1,16 @@
-//Data types
-//Primitive data type
-let age = 20
-let Name="jyoti"
-let brand 
-let isfalse=false
-console.log(brand)
+// const rock = document.querySelector('#rock')
+// const paper = document.querySelector('#paper')
+// const scissor = document.querySelector('#scissor')
+function logname(Name="enter your name"){
+    console.log(Name)
+}
 
-//Non Primitive data type
-let arr= [1,2,3,4,5]
-arr.push("6")// push, push to last
-arr.unshift(false)//unshift push to start
-console.log(arr)
+//logname('Jyoti')
+logname()
+
+function add(a,b){
+    return a+b
+}
+
+const result = add(36,46)
+console.log(result)
